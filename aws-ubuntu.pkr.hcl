@@ -28,6 +28,8 @@ source "amazon-ebs" "eu-central-1" {
   ssh_username = "ubuntu"
 }
 
+# For Multi Region AMI Deployment
+
 #source "amazon-ebs" "eu-west-1" {
 #  ami_name      = "packer-DogWebapp-aws"
 #  instance_type = "t2.micro"
